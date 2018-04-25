@@ -11,12 +11,10 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="css/reset.css" />
         <link type="text/css" rel="stylesheet" href="css/master.css" />
+        <link href="css/lightbox.css" rel="stylesheet">
     </head>
     <body>
         <div id="wrapper">
-            
-            
-            
        
                 <a href="index.html"><img src="images/christmascafelogo.png" class="topmenu" alt="Christmas Cafe Logo"/></a>
             <nav>
@@ -35,9 +33,6 @@
                 <li><a href="https://twitter.com/hashtag/christmas"><img src="images/christmascafe-twitter.png" class="socialnav" alt="Christmas Cafe Twitter Icon"/></a></li>
             </ul>   
             </nav>   
-                        
-  
-       
         
             <img src="images/header.jpg" alt="Christmas Cafe Website" class="fullwidth" />
 
@@ -60,6 +55,7 @@
                     </div>
                     <p class="sbblock" id="contacttext">Connect with Us</p>
 
+                <div id="sbfloat">
                     <a href="mailto:jaz.clark@ucd.ie"><img src="images/christmascafe-email-sb.png" alt="Christmas Cafe Email Icon"/></a>
                     <a href="https://www.facebook.com/CHRISTMAS-26475473315">
                         <img class="sbblock" src="images/christmascafe-facebook-sb.png" alt="Christmas Cafe Facebook Icon"/>
@@ -70,6 +66,7 @@
                     <a href="https://twitter.com/hashtag/christmas">
                         <img class="sbblock" src="images/christmascafe-twitter-sb.png" alt="Christmas Cafe Twitter Icon"/>
                     </a>
+                </div>
 
             </div>
 
@@ -81,24 +78,26 @@
             <div class="content">
                     
 
-                <h1 class="boxed">Christmas Cafe Drinks</h1>
+                <h1><span class="boxed">Christmas Cafe Drinks</span></h1>
                 
-                    <a href="images/lightbox/americano.jpg" data-lightbox="image-1" data-title="Christmas Cafe Americano"><img src="images/lightbox/americano-crop.jpg" alt="Christmas Cafe Americano"></a>
-                    <a href="images/lightbox/gingerbread-late.jpg" data-lightbox="image-2" data-title="Christmas Cafe Gingerbread Late"><img src="images/lightbox/gingerbread-late-crop.jpg" alt="Christmas Cafe Gingerbread Late"></a>
-                    <a href="images/lightbox/coffee-baking.jpg" data-lightbox="image-3" data-title="Christmas Cafe Christmas Cappucino"><img src="images/lightbox/coffee-baking-crop.jpg" alt="Christmas Cafe Christmas Cappucino"></a>
+                    <div class="menuspacing">
+                        <a href="images/lightbox/americano.jpg" data-lightbox="drinks" data-title="Christmas Cafe Americano"><img src="images/lightbox/americano-crop.jpg" alt="Christmas Cafe Americano"></a>
+                        <a href="images/lightbox/gingerbread-late.jpg" data-lightbox="drinks" data-title="Christmas Cafe Gingerbread Late"><img src="images/lightbox/gingerbread-late-crop.jpg" alt="Christmas Cafe Gingerbread Late"></a>
+                        <a href="images/lightbox/coffee-baking.jpg" data-lightbox="drinks" data-title="Christmas Cafe Christmas Cappucino"><img src="images/lightbox/coffee-baking-crop.jpg" alt="Christmas Cafe Christmas Cappucino"></a>
+                    </div>
                 
+                <h1><span class="boxed">Christmas Cafe Baking</span></h1>
                 
-                <h1 class="boxed">Christmas Cafe Baking</h1>
-                
-                    <a href="images/lightbox/chocolate-brownie.jpg" data-lightbox="image-1" data-title="Christmas Cafe Chocolate Brownie"><img src="images/lightbox/chocolate-brownie-crop.jpg" alt="Christmas Cafe Chocolate Brownie"></a>
-                    <a href="images/lightbox/christmas-cupcake.jpg" data-lightbox="image-2" data-title="Christmas Cafe Cupcake"><img src="images/lightbox/christmas-cupcake-crop.jpg" alt="Christmas Cafe Cupcake"></a>
-                    <a href="images/lightbox/clause-cupcakes.jpg" data-lightbox="image-3" data-title="Christmas Cafe Chocolate Cupcake"><img src="images/lightbox/clause-cupcakes-crop.jpg" alt="Christmas Cafe Chocolate Cupcake"></a>
-
+                    <div class="menuspacing">
+                        <a href="images/lightbox/chocolate-brownie.jpg" data-lightbox="baking" data-title="Christmas Cafe Chocolate Brownie"><img src="images/lightbox/chocolate-brownie-crop.jpg" alt="Christmas Cafe Chocolate Brownie"></a>
+                        <a href="images/lightbox/christmas-cupcake.jpg" data-lightbox="baking" data-title="Christmas Cafe Cupcake"><img src="images/lightbox/christmas-cupcake-crop.jpg" alt="Christmas Cafe Cupcake"></a>
+                        <a href="images/lightbox/clause-cupcakes.jpg" data-lightbox="baking" data-title="Christmas Cafe Chocolate Cupcake"><img src="images/lightbox/clause-cupcakes-crop.jpg" alt="Christmas Cafe Chocolate Cupcake"></a>
+                    </div>
                      
             </div>
             
             
-            
+     
         </div>
           
             
@@ -122,7 +121,9 @@
             </div>
             
             
-        </div>    
+        </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>    
+    <script src="js/lightbox.js"></script>    
     </body>
     
 </html>
