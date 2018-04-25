@@ -1,0 +1,365 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+#wrapper {
+    background-color: #e3dfe0;
+    margin: 0px 85px 0px 85px;
+	}
+
+
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #37415b;
+    color: #37415b;
+    font-size: 20px;
+    text-align: justify;
+	}
+
+
+h1, h2 {
+	font-family: 'Courgette', 'Arial';
+    font-size: 24px;
+    color: #37415b;
+    margin: 20px;
+	}
+
+
+h3 {
+	font-family: 'Courgette', 'Arial';
+    font-size: 20px;
+    color: #37415b
+	}
+
+
+h4 {
+	font-family: 'Courgette', 'Arial';
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #37415b
+	}
+
+
+
+p {
+	text-align: justify;
+    margin: 10px 10px 20px 10px;
+	}
+
+
+
+.topmenu{
+    float: left;
+    width:120px;
+    height:120px;
+    margin-left: 10px;
+    }
+
+
+nav {
+    
+    }
+
+
+nav ul {
+    float: left;
+    width: 40%;
+    }
+
+
+nav ul li {
+    float: left;
+    margin-right:20px;
+    }
+
+
+nav ul li a {
+    font-size: 24px;
+    line-height: 100px;
+    }
+
+
+#socialnavigation {
+
+    }
+
+
+#socialnavigation ul {
+    float: right;
+    width: 40%;
+    }
+
+
+#socialnavigation ul li {
+    float: left;
+    margin-left:10px;
+    margin-top: 10px;
+    }
+
+
+#socialnavigation ul li a {
+    font-size: 18px;
+    line-height: 100px;
+    }
+
+
+.socialnav{
+    height: 75px;
+    width: 75px;  
+    }
+
+
+#secondmenu {
+    background-color: #d1c3b9;   
+    }
+
+
+#secondmenu ul {
+    display: flex;
+    justify-content: center;
+    }
+
+
+#secondmenu ul li{
+    font-size: 24px;
+    line-height: 30px;
+    margin: 10px 40px 10px 40px;
+    }
+
+
+#secondmenu ul li a{
+    
+    }
+
+
+.container {
+    display: flex;
+    padding: 10px;
+    }
+
+
+.sidebar {
+    flex: 1;
+    order: 2;
+    margin-left: 50px;
+    }
+
+
+.contactsidebar {
+    flex: 1;
+    order: 2;
+    margin: 10px 50px 10px 10px;
+    }
+
+
+.sbblock {
+    display: block;
+    align-content: center;
+    }
+
+.content {
+    flex:6;
+    order: 1;
+    }
+
+
+#contacttext {
+    font-size: 30px;
+    color: red;
+    text-align: center;   
+    }
+
+.bullets {
+    list-style-type: circle;
+    margin-left: 30px; 
+}
+
+.bullets li {
+    margin-bottom: 15px;
+}
+
+#footer {
+    background-color: #d1c3b9;
+    clear: both;
+
+    }
+
+#footer .flex {
+    display: flex; 
+    width: 40%;
+    margin: 0 auto;  
+}
+
+#footerlogo {
+    flex: 1;
+
+    }
+
+#footertimes {
+    flex: 1;
+    margin-top: 40px;
+    }
+
+
+#youtube {
+    width: 75%;
+    margin: auto;
+    }
+
+
+.imagesstacked {
+    height:155px;
+    width:250px;
+    display: block;
+    }
+
+div.maincontent {
+    float: left;
+    width: 70%;
+
+ }
+
+div.blockimages {
+    float: left;
+    width: 30%;
+    padding: 10px;
+
+    }
+
+div.blockimages img {
+    width: 100%;
+    margin-bottom: 10px;
+
+    }
+
+div.blockimages2 {
+    display: block;
+    }
+
+
+.clear {
+    clear: both;
+    }
+
+
+
+
+div#topmenu {
+    
+    }
+
+
+div#sidebar {
+    justify-content: center;
+    }
+
+
+div#footer {
+    background-color: #d1c3b9;
+    float: none;
+    }
+
+
+a{
+	color: #37415b;
+	text-decoration: none;
+	}
+	
+
+a:hover {
+	color:red;
+	text-decoration: none;
+	}
+
+
+.boxed {
+    border: 2px solid #37415b;
+    border-radius: 10px;
+    padding: 4px;
+    margin: 10px;
+    
+    }
+
+
+.boxed2 {
+    border: 3px solid #37415b;
+    border-radius: 50px;
+    padding: 2px;
+    margin: 10px;
+    }
+
+
+.button {
+    border-radius: 10px;
+    color: white;
+    background: #37415b;
+    padding: 10px;
+    margin: 30px;
+    display: inline;
+    clear: both;
+    }
+
+
+
+iframe {
+    align-content: center;
+}
+
+
+#contactmap {
+    align-content: center;
+    margin: 20px 0px 20px 100px;
+}
+
+
+/* Images Classes: */
+
+.floatleft {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	}
+	
+.floatright {
+	float: right;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	}
+	
+.fullwidth {
+	margin: 0;
+	width: 100%
+	}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
